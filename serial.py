@@ -37,15 +37,4 @@ class SerialGenerator:
         
         self.next = self.start
 
-    serial = SerialGenerator(start=100)
-
-    serial.generate()
-
-    serial.generate()
-
-    serial.generate()
-
-    serial.reset()
-
-    serial.generate()
 
